@@ -1,0 +1,28 @@
+## [ Dotnet ]
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
+
+## [ JetBrains Rider ]
+.idea/
+*.sln.iml
+.vs/
+
+## [ OS Specific ]
+.DS_Store
+Thumbs.db
+
+## [ NeuroPlanets Specific ]
+# We ignore the exports so your GitHub remains clean, 
+# but keep the folder structure if needed.
+Exports/*
+!Exports/.gitkeep
+
+## [ ML.NET ]
+# Ignore the auto-generated model file if you save it to disk
+*.zip
+packages/
